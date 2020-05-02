@@ -1,6 +1,6 @@
 # CMPE255-Project
 
-## README for feature-selector:
+### README for feature-selector:
 Use the below commands to install feature-selector:
 
 git clone https://github.com/WillKoehrsen/feature-selector.git
