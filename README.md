@@ -1,17 +1,17 @@
-# CMPE255-Project  
+# Network Data Anomaly Identification System 
 \
-A network attack could be defined as hacking into a specified target to alter or gain unauthorized access thus making the communicated or stored data packets vulnerable to threats. Network attacks significantly degrade the quality of service experienced by users. Hence a robust security mechanism is necessary to tackle the malicious attacks. The objective of this project is to utilize Data Mining Algorithms and Machine Learning Models to categorize an incoming network traffic as an intrusion or not. With this system in place, if any data with similar characteristics were to arrive in the future, then it can efficiently capture and take the necessary combating actions to deal with the attack. Our model can categorize the data into Normal data or Attack data. Besides, the model can also specify which among the nine attack categories the threat belongs to.  \
+A network attack could be defined as hacking into a specified target to alter or gain unauthorized access thus making the communicated or stored data packets vulnerable to threats. Network attacks significantly degrade the quality of service experienced by users. Hence a robust security mechanism is necessary to tackle the malicious attacks. The objective of this project is to utilize Data Mining Algorithms and Machine Learning Models to categorize an incoming network traffic as an intrusion or not. With this system in place, if any data with similar characteristics were to arrive in the future, then it can efficiently capture and take the necessary combating actions to deal with the attack. Our model can categorize the data into Normal data or Attack data. Besides, the model can also specify which among the nine attack categories the threat belongs to.  
 ### Dataset : https://www.unsw.adfa.edu.au/unsw-canberra-cyber/cybersecurity/ADFA-NB15-Datasets/  
-#### Reference : Moustafa, Nour, and Jill Slay. "UNSW-NB15: a comprehensive data set for network intrusion detection systems (UNSW-NB15 network data set)."Military Communications and Information Systems Conference (MilCIS), 2015. IEEE, 2015.  \
-## Steps to be Followed:  \
-No additional set up needed.\
-1. The folder final_version contains the final dataset and implementation\
-2. Download the sample dataset. Filename : dataset_final.\
-  This is a preprocessed and sampled dataset. The output from this file may differ from what was obtained using the complete dataset\
-3. Execute network_anamoly_detection.py file  \\
-### Read on for details about other files in this repository\
+#### Reference : Moustafa, Nour, and Jill Slay. "UNSW-NB15: a comprehensive data set for network intrusion detection systems (UNSW-NB15 network data set)."Military Communications and Information Systems Conference (MilCIS), 2015. IEEE, 2015.  
+## Steps to be Followed:  
+No additional set up needed.  
+1. The folder final_version contains the final dataset and implementation  
+2. Download the sample dataset. Filename : dataset_final.  
+  This is a preprocessed and sampled dataset. The output from this file may differ from what was obtained using the complete dataset  
+3. Execute network_anamoly_detection.py file    
+### Read on for details about other files in this repository  
 ### Requisites before running Feature_Selector_NCR_SM_Sampler.ipynb (for feature-selector):  
-Use the below commands to install feature-selector:\
+Use the below commands to install feature-selector:  
 
 git clone https://github.com/WillKoehrsen/feature-selector.git  
 cd feature-selector  
